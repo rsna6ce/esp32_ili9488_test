@@ -1,23 +1,7 @@
 
 #include "myLovyanGFX.hpp"
 //LovyanGFX1.1.12
-/*
-static LGFX lcd;
 
-void setup() {
-  Serial.begin(115200);
-  lcd.init();
-  lcd.setRotation(1);
-  lcd.clear(TFT_GREEN);
-  
-}
-void loop() {
-}
-*/
-
-
-//#define LGFX_AUTODETECT
-//#include <LovyanGFX.hpp>
 const int canvas_count = 10;
 LGFX lcd;
 LGFX_Sprite canvas[canvas_count];
